@@ -1,0 +1,60 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://2dc47c57-a2dc-403f-a397-09aa979a9e53",
+	"@type": "sc:Manifest",
+	"label": "Buddy Bradley",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Buddy Bradley teaching at the West End dance school. Held in the Mander & Mitchenson Collection.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "MM, University of Bristol Theatre Collection",
+	"sequences": [
+		{
+			"@id": "http://f11a9803-c4f2-4f2c-8849-21dfd98d90e5",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://91c83aca-99bb-4747-9f84-e66aab3ce348",
+					"@type": "sc:Canvas",
+					"label": "MM/2/DA/DC/30",
+					"height": 3708,
+					"width": 5716,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://87a2f703-28df-4b0a-b93f-53cfddfa01db",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.rit.bristol.ac.uk/iiif/3/bhmonth%2Fbradley.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/3/context.json",
+									"@id": "https://iiif.rit.bristol.ac.uk/iiif/3/bhmonth%2Fbradley.jpg",
+									"profile": "level2"
+								},
+								"height": 3708,
+								"width": 5716
+							},
+							"on": "http://91c83aca-99bb-4747-9f84-e66aab3ce348"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [],
+	"logo": "https://www.bristol.ac.uk/styles/t4/responsive/uob-logo.svg"
+}
